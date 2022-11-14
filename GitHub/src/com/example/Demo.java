@@ -17,6 +17,13 @@ public class Demo {
 Iterator itr	=al.iterator();
  while(itr.hasNext()) {
 	 System.out.println(itr.next());
+
+	 
+	 for(Object obj: al) {
+		 System.out.println(obj);
+	 }
+ 
+ 
  }
 		
 
